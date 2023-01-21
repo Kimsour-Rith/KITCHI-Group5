@@ -159,12 +159,6 @@ scrollbar-width: none;  /* Firefox */
   width: 100%;
   height: 100%;
 }
-.Image img {
-  width: 50%;
-  height: 50%;
-  align-items: center;
-  align-content: center;
-}
 
 .cart-line {
   height: 2px;
