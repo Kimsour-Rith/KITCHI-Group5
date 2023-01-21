@@ -8,6 +8,14 @@ import { SiginComponent } from './auth/sigin/sigin.component';
 import { SignupComponent } from './auth/signup/signup.component';
 import { NavbarComponent } from './user/navbar/navbar.component';
 import { ProfileComponent } from './user/profile/profile.component';
+import { HomepageComponent } from './user/homepage/homepage.component';
+import { IonicModule } from '@ionic/angular';
+import { ShopComponent } from './user/shop/shop.component';
+import { ContactComponent } from './user/contact/contact.component';
+import { AboutComponent } from './user/about/about.component';
+import { UserComponent } from './user/user.component';
+import { FooterComponent } from './user/footer/footer.component';
+import { NgxNavbarModule } from 'ngx-bootstrap-navbar';
 
 @NgModule({
   declarations: [
@@ -16,11 +24,19 @@ import { ProfileComponent } from './user/profile/profile.component';
     SiginComponent,
     SignupComponent,
     NavbarComponent,
-    ProfileComponent
+    ProfileComponent,
+    HomepageComponent,
+    ShopComponent,
+    ContactComponent,
+    AboutComponent,
+    UserComponent,
+    FooterComponent
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    IonicModule.forRoot(),
+    NgxNavbarModule
   ],
   providers: [],
   bootstrap: [AppComponent]

@@ -1,0 +1,65 @@
+.icon
+{
+  font-size: 2em;
+}
+
+*{
+  padding:0;
+  margin:0;
+  box-sizing: border-box;
+  font-family:'Poppins', sans-serif ;
+}
+header{
+  position: absolute;
+  z-index: 10;
+  width: 100%;
+}
+
+.navbar{
+  padding-left: 3em;
+  padding-right: 3em;
+}
+
+.nav-item{
+  font-weight: 600;
+  text-transform: uppercase;
+}
+
+.navbar-light .navbar-nav .nav-item .nav-link:hover,
+.navbar-light .navbar-nav .nav-item.active .nav-link{
+  background: rgb(85, 83, 83);
+  color: rgb(241, 235, 235);
+}
+
+
+#nav-link{
+  margin: 1rem;
+  float: right;
+  align-items: flex-end;
+  text-align: right;
+}
+
+
+.navbar-light .navbar-toggler{
+  border: none;
+  outline: none;
+}
+nav ul li a{
+  color: black;
+  font-size:17px;
+  padding: 7px 13px;
+}
+#slider{
+  overflow:hidden;
+  background-size: cover;
+}
+.logo{
+  width:7vw;
+  float:left;
+  height:6vh;
+  margin-top: 8px;
+  margin-left: 40px;
+
+}
+
+
