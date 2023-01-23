@@ -16,7 +16,8 @@ import { AboutComponent } from './user/about/about.component';
 import { UserComponent } from './user/user.component';
 import { FooterComponent } from './user/footer/footer.component';
 import { NgxNavbarModule } from 'ngx-bootstrap-navbar';
-
+import { ProductDetailComponent } from './user/product-detail/product-detail.component';
+import { HttpClientModule } from '@angular/common/http';
 @NgModule({
   declarations: [
     AppComponent,
@@ -30,13 +31,15 @@ import { NgxNavbarModule } from 'ngx-bootstrap-navbar';
     ContactComponent,
     AboutComponent,
     UserComponent,
-    FooterComponent
+    FooterComponent,
+    ProductDetailComponent
   ],
   imports: [
     BrowserModule,
     AppRoutingModule,
     IonicModule.forRoot(),
-    NgxNavbarModule
+    NgxNavbarModule,
+    HttpClientModule
   ],
   providers: [],
   bootstrap: [AppComponent]

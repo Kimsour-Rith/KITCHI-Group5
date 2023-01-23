@@ -1,4 +1,35 @@
 /* You can add global styles to this file, and also import other style files */
 @import "~bootstrap-icons/font/bootstrap-icons.css";
 
+.container{
+  background-color: #fff;
+  border-radius: 0.3rem;
+  box-shadow: rgba(0,0 ,0,0.08) 0px 1px 8px;
+  border-radius: 4px;
+  height:100%;
+  width: 100%;
+  overflow: scroll;
+  margin-bottom: 40px;
+}
+/* Hide scrollbar for Chrome, Safari and Opera */
+.container::-webkit-scrollbar {
+  display: none;
+}
 
+/* Hide scrollbar for IE, Edge and Firefox */
+.container {
+-ms-overflow-style: none;  /* IE and Edge */
+scrollbar-width: none;  /* Firefox */
+}
+.rating i {
+  color: #fa0;
+  line-height: 22px;
+  margin: 0 2px;
+  font-size: 12px;
+}
+app-footer{
+  margin-bottom: 50px;
+}
+p, button{
+  font-weight: 500;
+}

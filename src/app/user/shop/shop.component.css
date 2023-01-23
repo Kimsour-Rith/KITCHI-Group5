@@ -170,7 +170,7 @@ scrollbar-width: none;  /* Firefox */
   text-align: center;
 }
 
-.content a {
+.content h6 {
   font-size: 16px;
   color: #555;
   font-weight: 700;
@@ -178,7 +178,7 @@ scrollbar-width: none;  /* Firefox */
   transition: all .3s;
 }
 
-.content a:hover {
+.content h6:hover {
   color: #fa0;
   text-decoration: none;
 }
@@ -247,4 +247,10 @@ scrollbar-width: none;  /* Firefox */
 p, button,a
 {
   font-weight: 500;
+}
+#productTitle{
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  max-width: 50ch;
 }

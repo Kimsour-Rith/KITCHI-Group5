@@ -1,0 +1,12 @@
+.card{
+  border-width: 0;
+}
+*{
+  font-family: 'Poppins';
+}
+.qty {
+  justify-content: space-around;
+  margin-top: 30px;
+}
+
+

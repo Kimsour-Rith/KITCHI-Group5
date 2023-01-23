@@ -1,0 +1,52 @@
+<div class="container">
+  <!-- First Row Start-->
+  <div class="row" *ngIf="product !== undefined ">
+    <div class="container">
+      <div class="row ">
+        <div class="col-md-4" >
+          <div class="card" id="card">
+            <div class="model">
+              <div class="image">
+                <img src="{{product.image}}" alt="Product">
+              </div>
+            </div>
+          </div>
+      </div>
+      <div class="col-md-6">
+        <div class="card" id="card">
+          <div class="model">
+            <h1>{{product.title}}</h1>
+            <h3>{{product.price | currency}}</h3>
+            <div class="row">
+              <div class="rating col-2">
+                <i class="bi bi-star-fill"></i>
+                <i class="bi bi-star-fill"></i>
+                <i class="bi bi-star-fill"></i>
+                <i class="bi bi-star-fill"></i>
+                <i class="bi bi-star-fill"></i>
+              </div>
+              <p class="col"> | 5 Customers Review</p>
+            </div>
+
+            <h6>{{product.description}}</h6>
+
+            <div class="row qty">
+              <div class="col-2">
+                <button> - </button>
+                <button> + </button>
+              </div>
+              <div class="col-4 AddtoCart">
+                <button class="col btn btn-primary w-2 mt-4" style="color: white; font-weight: 600;">Add To Cart</button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- First Row End-->
+  <!-- Footer -->
+  <app-footer></app-footer>
+</div>
+  <!-- First Row End-->
+</div>
